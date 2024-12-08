@@ -1,11 +1,11 @@
 #include "Zombie.hpp"
 
-Zombie::Zombie(std::string name_ganados) : name(name_ganados)
+Zombie::Zombie(void)
 {
-	std::cout << "Gloria a las Plagas! Ganado " << name << " nacìo" << std::endl;
+	std::cout << "ahì està, matalo!" << std::endl;
 }
 
-Zombie::~Zombie()
+Zombie::~Zombie(void)
 {
 	std::cout << "Leon: *headshot*\nGanado " << name << ": *dies whispering ''Lord..Saddler''*" << std::endl;
 }
@@ -13,4 +13,10 @@ Zombie::~Zombie()
 void Zombie::announce()
 {
 	std::cout << name << ": BraiiiiiiizzzZ..." << std::endl;
+}
+
+void Zombie::set_name(std::string ganado_name)
+{
+	name = ganado_name;
+	return;
 }
