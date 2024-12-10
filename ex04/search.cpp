@@ -1,7 +1,16 @@
 #include <iostream>
+#include <fstream>
 #include <string>
 
-void replace(std::string file, std::string s1, std::string s2)
+int main(int argc, char **argv)
 {
-    
+    std::ofstream outputFile("output.txt");
+    //controlli
+    std::ifstream file("file1.txt");
+    std::string line;
+    while (std::getline(file, line))
+    {
+        outputFile << line << std::endl;
+    }
+    return 0;
 }
