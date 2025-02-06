@@ -1,4 +1,4 @@
-#include "humanb.hpp"
+#include "HumanB.hpp"
 
 HumanB::HumanB(std::string player2)
 {

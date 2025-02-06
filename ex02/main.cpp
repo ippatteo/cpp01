@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-int main() 
+int main()
 {
     std::string brain = "HI THIS IS BRAIN";
 
@@ -13,7 +13,7 @@ int main()
     std::cout << "Memory address held by stringPTR " << stringPTR << std::endl;
     std::cout << "Memory address held by stringREF " << &stringREF << std::endl;
     std::cout << "value of brain " << brain << std::endl;
-    std::cout << "value POINTED by stringPTR " <<  *stringPTR << std::endl;
+    std::cout << "value pointed by stringPTR " <<  *stringPTR << std::endl;
     std::cout << "value pointed by stringREF " << stringREF << std::endl;
     return 0;
 }

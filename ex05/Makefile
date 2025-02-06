@@ -1,4 +1,4 @@
-NAME = Unnecessary_violence
+NAME = Harl
 
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)

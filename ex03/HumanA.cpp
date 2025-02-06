@@ -1,4 +1,4 @@
-#include "humana.hpp"
+#include "HumanA.hpp"
 
 HumanA::HumanA(std::string player1, Weapon &pl1_weap) : player_name(player1), player1_weapon(pl1_weap)
 {
